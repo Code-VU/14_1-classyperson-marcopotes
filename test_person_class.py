@@ -2,10 +2,11 @@ from classy_person import Person
 
 def test_person_class(capfd):
     chuck = Person(56, 'Charles R. Severance')
-
     print(chuck.age)
+
     chuck.increase_age()
     print(chuck.age)
+    
     chuck.say_greeting()
     chuck.count_to_age()
 
