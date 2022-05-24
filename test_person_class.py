@@ -1,7 +1,7 @@
 from classy_person import Person
 
 def test_person_class(capfd):
-    chuck = Person(56, 'Charles R. Severance')
+    chuck = Person(age=56, name='Charles R. Severance')
     print(chuck.age)
 
     chuck.increase_age()
