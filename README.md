@@ -1,10 +1,7 @@
-# Object Oriented Programming
-
+# Assignment:
 You've learned how to make a Python class that has its own values, methods and initializes its values.
 
-## Assignment:
-
-### Build a class called `Person`
+## Build a class called `Person`
 This class should have a constructor that takes in a name and age and sets its values accordingly.
 
 This class should have 4 methods:
@@ -14,8 +11,17 @@ This class should have 4 methods:
     ```Hello world! My name is { objects_name }!```
 4. `count_to_age` method that prints 1 to the current age of the object as a loop.
 
+## Starter Code
+'''
+Starter code!
+don't forget the use of 'self' and to have the methods:
+1. __init__
+2. increase_age
+3. say_greeting
+4. count_to_age
+'''
 
-### Expected output
+## Expected output
 I'll be construction an object with your class. If the object I made is `nathan = Person(32, "Nathan")` I would expect:
 
 print(nathan.age)
