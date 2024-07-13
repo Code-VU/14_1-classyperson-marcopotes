@@ -8,6 +8,38 @@ don't forget the use of 'self' and to have the methods:
 '''
 
 class Person:
+    age = 0 
+    name = ""
+    def __init__(self, age, name): 
+        self.name = name
+        self.age = age
+        
+
+    def say_greeting(self):
+        print(f"Hello world! My name is {self.name}!")
+    
+    def increase_age(self):
+        self.age = self.age + 1
+        print(self.age)
+
+
+    def count_to_age(self):
+        for n in range(self.age):
+            print (n+1)
+
+
+
+
+
+
+
+
+nathan = Person(32, "Nathan")
+print(nathan.age)
+nathan.say_greeting()
+nathan.increase_age()
+nathan.count_to_age()
+
 
 
 
